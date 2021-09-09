@@ -1,24 +1,24 @@
 Algoritmo "Desvio condicional"
 //
 //
-// Descrição   :Se o cliente comprar mais de 8 Kg em frutas ou o valor total da compra ultrapassar R$ 25,00, receberá
+// DescriÃ§Ã£o   :Se o cliente comprar mais de 8 Kg em frutas ou o valor total da compra ultrapassar R$ 25,00, receberÃ¡
 //ainda um desconto de 10% sobre este total. Escreva um algoritmo para ler a quantidade (em Kg) de
-//morangos e a quantidade (em Kg) de maças adquiridas e escreva o valor a ser pago pelo cliente.
-// Autor(a)    : Nome do(a) aluno(a)
+//morangos e a quantidade (em Kg) de maÃ§as adquiridas e escreva o valor a ser pago pelo cliente.
+// Autor(a)    : Arthur Mesquita Rocha
 // Data atual  : 01/09/2021
 Var
-// Seção de Declarações das variáveis
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
 morangos,macas,val_morangos,val_macas,val_total:real
 
 
 
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc...
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
 escreval("Peso da qtd de morangos")
 leia(morangos)
 
-escreval("Peso da qtd de maçãs")
+escreval("Peso da qtd de maÃ§Ã£s")
 leia(macas)
 
 se (morangos<=5) entao
@@ -39,10 +39,10 @@ fimse
 
 se (val_morangos+val_macas>25)ou(morangos+macas>8) entao
 val_total<-(val_morangos+val_macas)*0.9
-Escreval("O valor total é:R$ ",val_total)
+Escreval("O valor total Ã©:R$ ",val_total)
 senao
 val_total<-val_morangos+val_macas
-Escreval("O valor total é:R$ ",val_total)
+Escreval("O valor total Ã©:R$ ",val_total)
 
 fimse
 
