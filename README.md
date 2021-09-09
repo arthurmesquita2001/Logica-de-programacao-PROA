@@ -1,2 +1,2 @@
-# L-gica-de-programa-o-PROA
+# Logica-de-programacao-PROA
 Segundo módulo do curso Desenvolvedor web Java - PROA
